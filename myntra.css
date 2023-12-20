@@ -1,0 +1,88 @@
+
+ #navbar{
+    height:60px;
+    background-color: black;
+    color:white;
+ }
+
+ #logo{
+    background-color: rgba(200,20,50,1);
+    
+ }
+ 
+ button{
+    background-color: rgba(200,20,50,1);
+ }
+
+ a{
+    margin-right: 75px;
+ }
+
+ #container{
+    height: 600px;
+    border:2px solid black;
+    
+    margin:5px;
+    padding:5px;
+
+    background-color: rgba(100,00,100,0.5);
+    /* background-color: black; */
+
+    
+    
+ }
+
+ .box1{
+    height:100px;
+    width:100px;
+    background-color: red;
+    display:inline-block;
+    margin:10px;
+    background-image: url("myntratshirt.jpeg");
+    background-size: cover;
+    border:2px solid black;
+
+
+ }
+ .box2{
+    height:100px;
+    width:100px;
+    background-color: red;
+    display:inline-block;
+    margin:10px;
+    border:2px solid black;
+    background-image: url("https://th.bing.com/th/id/OIP.2gn-2mGfurRohpJz3HCKwwHaHa?w=194&h=194&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+    background-size: cover;
+
+
+
+ }
+ .box3{
+    height:100px;
+    width:100px;
+    background-color: red;
+    display:inline-block;
+    margin:10px;
+    border:2px solid black;
+    background-image: url("https://th.bing.com/th/id/OIP.xCwy4kBd0_kokC2lHsFiagHaIR?w=194&h=217&c=7&r=0&o=5&dpr=1.5&pid=1.7");
+   background-size: cover;
+
+ }
+ .box4{
+    height:100px;
+    width:100px;
+    background-color: red;
+    display:inline-block;
+    margin:10px;
+    border:2px solid black;
+    /* background-image: url("https://www.bing.com/th?id=OPA.bBrBtDqFXGWqtQ474C474&o=5&pid=21.1&w=142&h=142&rs=1&qlt=100&dpr=1.5"); */
+   background-image: url("https://th.bing.com/th?id=OIP.0E4Rp4DHdNBwwp1IFdV3RQHaLH&w=204&h=306&c=8&rs=1&qlt=90&o=6&dpr=1.5&pid=3.1&rm=2");
+   background-size: cover;
+ }
+
+
+
+ footer{
+   text-align: center;
+   
+ }

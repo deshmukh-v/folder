@@ -1,0 +1,34 @@
+
+ h1{
+    color:blue;
+ }
+ h2{
+   color:red;
+ }
+ p{
+   color:blueviolet;
+ }
+
+ BODY{
+   background-color:rgb(55,42,40);
+ }
+ 
+ button{
+   background-color:rgb(255,0,0);
+ }
+
+ P{
+   text-align:left;
+   text-decoration: line-through;
+ }
+
+ div {
+  height:100px;
+  width: 90px;
+  background-color: white;
+  border-radius: 50%;
+  
+  
+ }
+ 
+  

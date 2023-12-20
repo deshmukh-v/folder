@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>create Account</title>
+    <style>
+
+       h1{
+        text-align: center;
+       
+       }  
+       h5{
+        text-align: right;
+        color:red;
+        
+       }   
+             
+       #email{
+         margin:4px;
+         padding:4px;
+       }
+       #mno{
+        margin:4px;
+        padding:4px;
+               }
+    button{
+        background-color: aquamarine;
+    }
+        
+        header{
+            height:90px;
+            width: auto;
+            text-align: center;
+            background-color: black;
+            color:aliceblue;
+        }
+
+        footer{
+            height:80px;
+            width: auto;
+            text-align: center;
+            background-color: black;
+            color:aliceblue;
+        }
+        
+        
+    </style>
+</head>
+<body>
+            <form action="createaccount.java" method="get">
+ <!--  header -->
+
+<header>
+    <h1>CREATE ACCOUNT </h1>
+</header>
+
+
+    <!-- main /container -->
+<div >           
+    <ul>
+      <li># Instructions  </li>        <div><h5>सूचना मराठीमध्ये </51></div>                                                               
+     <li>Do not open this website in multiple tabs in same browser to avoid difficulties in account/profile creation.</li> 
+       <li> Do not create new account if you have created account in previous session.</li>  
+       <li>Only one account per student is allowed.</li>
+      
+        <li>For account creation use your valid Aadhaar Number(only for indian students)/Passport Number(only for international students), Email Id and Mobile Number.</li>
+       <li> Provide your valid Email Id and Mobile Number because an OTP will be sent to verify your Email Id and Mobile Number. Both Email Id and Mobile Number will be used for communication purpose.</li>
+        
+       <li>For Indian Students- If you don't have aadhaar number yet then go to your college and ask for Temporary Number for Aadhaar. That Temporary Number needs to be entered in place of aadhaar </li>
+    </ul>
+   </div>      
+
+
+
+    <!-- nationality --> <hr><hr>
+  <DIV>
+     <lebel for="na1" aria-placeholder="Nationality" value="INDIA">Nationality :</lebel>
+    <select>
+        <OPTION>SELECT Nationality</OPTION>
+        <option>INDIA</option>
+        <OPTION>AMERIKA</OPTION>
+        <option>SHREELANKA</option>
+        <option>BANGLADESH</option>
+        <option>PAKISTAN</option>
+        <option>JAPAN</option>
+    </select>
+</DIV>
+            <br><br>
+  
+            <!-- student name -->
+<div>
+    <form>
+    <lebel for="std1">Student Name :</lebel>
+    <input type="text" placeholder="Student Name" id="std1" name="std1">
+  </div>  
+<div>         
+    <br><br>
+         <!-- email and mobile no-->
+    <div>
+        <lebel id="email">Email :</lebel>
+        <input type="email" placeholder="email.com" id="email" name="email">
+                           <!-- mobile no -->
+        <lebel id="mno">Mobile Nomber :</lebel>
+        <input type="number" placeholder="nomber" id="mno"  name="mpbile" >
+    </div>   <br><br>
+
+
+             <!-- footer -->
+    <footer>
+      <div>
+         <button>VARIFY EMAIL AND MOBILE NO .</button>
+         <button>CANCER</button>
+      </div>
+         
+             <p>i allready have an account ?</p>
+              <button>login</button>
+              
+    </footer>
+
+</form>
+</body>
+</html>

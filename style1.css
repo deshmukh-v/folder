@@ -1,0 +1,39 @@
+.heading{                       /*.class name is heading*/
+     color:red;     
+}
+button {
+    color:red;
+    background-color:chartreuse;
+}
+#one{                                    /*id is denoted by #*/
+    font-size: 20px;
+}
+#two {
+    font-size:30px;
+}
+#three {
+    font-size:45px;
+}
+p2{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:20px;
+    color:red;
+    background-color: yellow;
+    
+}
+
+div {
+    border-color: red;
+    border-style: double;
+    border-width:20px;
+    border-radius:10%;
+    text-align: center;
+}
+div2 {
+    height:150px;
+    weidth:140px;
+    backgeround-color:green;
+    
+}

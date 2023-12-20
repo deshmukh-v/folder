@@ -1,0 +1,32 @@
+div {
+    height:50px;
+    width:50px;
+     border-radius:50%; 
+    background-color: red;
+
+}
+
+h1 {
+    height:50px;
+  width: 50px;
+  background-color: yellow;
+  border-radius:50%
+  
+  
+}
+h2 {
+    height:50px;
+  width: 50px;
+  background-color: green;
+  border-radius: 50px;
+  
+}
+
+body{
+    border-style:none;
+    border-color:black;
+    border-width: 52px;
+    border-height:55px;
+}
+
+

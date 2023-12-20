@@ -1,0 +1,35 @@
+
+
+
+#box1{
+    height:100px;
+    width:100px;
+    background-color: blue;
+    display:inline-block;
+    background-image: url("wallpaer.jpg");
+    background-size: cover;
+}
+
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    display:inline-block;
+    margin: 20px;
+    background-image: url("wallpaer.jpg");
+    background-size: cover;
+
+    
+}
+
+#box3{
+    height:200px;
+    width:500px;
+    background-color: yellow;
+    display:inline-block;
+    background-image: url("shivajireje.jpg");
+    background-size:cover;
+    
+}
+
+
